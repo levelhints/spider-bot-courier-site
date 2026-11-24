@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spider-Bot Courier</title>
+<meta name="description" content="Spider-Bot Courier is a small Android app that uploads notes and pictures from your phone's Download folder to a folder in your own Google Drive.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <img src="mascot.svg" alt="The Spider-Bot mascot, a small white and green spider">
+    <div>
+      <h1>Spider-Bot Courier</h1>
+      <p class="lead">Carries notes and pictures from your phone to your own Google Drive.</p>
+    </div>
+  </header>
+
+  <h2>What it is</h2>
+  <p>Spider-Bot Courier is a small Android app made for personal use. It is the phone-side companion of Spider-Bot, a Windows program that files tabletop role-playing notes into an Obsidian vault.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>At set times (06:00 and 18:00 by default), or when you tap <strong>Send</strong>, it looks through the phone's Download folder for recently downloaded Markdown notes (<code>.md</code>), pictures, and zip files of notes and pictures.</li>
+    <li>It uploads them to one folder in your own Google Drive, called “Spider-Bot catch”.</li>
+    <li>It shows you a list of what it uploaded.</li>
+    <li>Once Google Drive has confirmed a note, or a zip file containing notes, the app removes it from the phone. This can be switched off in the app's settings. Pictures stay on the phone.</li>
+    <li>A picture is uploaded by itself only when it was saved from ChatGPT or is named after one of your notes. Other recent pictures are listed in the app, and are uploaded only if you choose them.</li>
+  </ul>
+
+  <h2>How it uses your Google account</h2>
+  <p>The app asks for one Google permission: access to the files and folders in Google Drive that the app itself created. It uses this to create the “Spider-Bot catch” folder and to upload files into it. It cannot see, change or delete anything else in your Drive.</p>
+  <p>Your files go straight from your phone to your Google Drive. Nothing is sent to the maker of the app or to anyone else. The full details are in the <a href="privacy.html">privacy policy</a>.</p>
+
+  <div class="card">
+    <p><strong>Not on Google Play.</strong> The app is built from source and installed by hand. It is not offered to the public, and there is nothing to buy or sign up for.</p>
+  </div>
+
+  <footer>
+    <p><a href="privacy.html">Privacy policy</a> · <a href="https://github.com/levelhints/spider-bot-courier-site/issues">Contact</a></p>
+    <p>Spider-Bot Courier is made by levelhints. It is not affiliated with Google.</p>
+  </footer>
+</main>
+</body>
+</html>

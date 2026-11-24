@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy – Spider-Bot Courier</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <img src="mascot.svg" alt="">
+    <div>
+      <h1>Privacy policy</h1>
+      <p class="lead">Spider-Bot Courier for Android · last updated 24 November 2026</p>
+    </div>
+  </header>
+
+  <p>Spider-Bot Courier (“the app”) uploads notes and pictures from your phone's Download folder to a folder in your own Google Drive. This page says which data the app touches and what happens to it.</p>
+
+  <h2>In short</h2>
+  <ul>
+    <li>Your files go from your phone directly to your own Google Drive, and nowhere else.</li>
+    <li>The maker of the app receives no data at all. The app has no server of its own.</li>
+    <li>There are no ads, no analytics and no tracking in the app.</li>
+  </ul>
+
+  <h2>Data the app accesses</h2>
+  <p><strong>Files on your phone.</strong> With the “all files access” permission you grant, the app reads the names, dates and contents of files in the folders it watches (by default the Download folder). It looks only at Markdown notes, pictures and zip files, and it uploads only the ones described on the <a href="index.html">home page</a>. To tell whether a picture came from a particular app or website, it also reads the information Android keeps about who saved a file.</p>
+  <p><strong>Google user data.</strong> When you connect Google Drive, the app receives:</p>
+  <ul>
+    <li>permission to see, create, change and delete only the files and folders in Google Drive that the app itself created (the <code>drive.file</code> permission);</li>
+    <li>the e-mail address or name of the Google account you connected, so the app can show you which account is in use.</li>
+  </ul>
+  <p>The app cannot see any other file in your Google Drive.</p>
+
+  <h2>How the app uses this data</h2>
+  <ul>
+    <li>It creates one folder in your Google Drive (“Spider-Bot catch”) and uploads the selected files into it.</li>
+    <li>It compares the checksum Google Drive reports for each upload with the file on your phone, to make sure the copy is complete.</li>
+    <li>It shows the connected account's address in its settings.</li>
+  </ul>
+  <p>Google user data is used for nothing else. It is not used for advertising, not sold, not shared, and not used to train or improve any artificial intelligence or machine learning model.</p>
+
+  <h2>Where data is stored</h2>
+  <ul>
+    <li><strong>In your Google Drive:</strong> the files the app uploaded. They belong to you and are covered by Google's own terms and privacy policy.</li>
+    <li><strong>On your phone, in the app's private storage:</strong> your settings, the address of the connected account, the id of the catch folder, a log of past runs with file names, and fingerprints (hashes) of files already sent so that nothing is uploaded twice.</li>
+  </ul>
+  <p>Uploads are sent over an encrypted connection (HTTPS) straight to Google. The access token for Google Drive is handled by Google Play services on your phone and is not stored by the app.</p>
+
+  <h2>Sharing</h2>
+  <p>The app shares no data with the maker of the app or with any third party. The only recipient of your files is your own Google Drive.</p>
+
+  <h2>Keeping and deleting data</h2>
+  <ul>
+    <li>After Google Drive confirms the upload of a note, or of a zip file containing notes, the app removes that file from your phone. You can switch this off in the app's settings. Pictures are never removed.</li>
+    <li>Files in your Google Drive stay there until you delete them.</li>
+    <li>Everything the app stores on your phone is deleted when you clear the app's data or uninstall the app.</li>
+    <li>You can take away the app's access to Google Drive at any time in your Google Account, under the list of third-party apps with access to your account.</li>
+  </ul>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>The app's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Children</h2>
+  <p>The app is a personal tool and is not directed at children.</p>
+
+  <h2>Changes and contact</h2>
+  <p>If this policy changes, the new version is published on this page with a new date. Questions can be raised through the <a href="https://github.com/levelhints/spider-bot-courier-site/issues">issue tracker</a> of this site.</p>
+
+  <footer>
+    <p><a href="index.html">Home</a> · Spider-Bot Courier is made by levelhints. It is not affiliated with Google.</p>
+  </footer>
+</main>
+</body>
+</html>
